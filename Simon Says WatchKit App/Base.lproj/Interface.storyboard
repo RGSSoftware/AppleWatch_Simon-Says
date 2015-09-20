@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="asX-gH-vWX">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Menu-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Menu" backgroundImage="background-Watch" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Simon_Says_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="Hro-UX-AHl">
+                            <items>
+                                <label width="24" alignment="left" text="0" textAlignment="center" id="aGU-s6-Rlg">
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                </label>
+                                <label width="98" alignment="right" text="Wait" textAlignment="right" id="L9s-Y2-Jd5">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" height="59" alignment="center" verticalAlignment="center" id="Tux-nI-bXU">
+                            <items>
+                                <button width="60" height="60" alignment="center" verticalAlignment="center" backgroundImage="green-Watch" id="i4h-F4-qft">
+                                    <connections>
+                                        <action selector="greenTouchUp" destination="AgC-eL-Hgc" id="3bR-3V-0Ov"/>
+                                    </connections>
+                                </button>
+                                <button width="60" height="60" alignment="center" verticalAlignment="center" backgroundImage="red-Watch" id="eli-RT-nyi">
+                                    <connections>
+                                        <action selector="redTouchUp" destination="AgC-eL-Hgc" id="UfU-wi-uJF"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="59" alignment="center" verticalAlignment="center" id="5R3-2h-sVJ">
+                            <items>
+                                <button width="60" height="60" alignment="center" verticalAlignment="center" backgroundImage="yellow-Watch" id="hPp-Qz-kBX">
+                                    <connections>
+                                        <action selector="yellowTouchUp" destination="AgC-eL-Hgc" id="6iR-Mw-30b"/>
+                                    </connections>
+                                </button>
+                                <button width="60" height="60" alignment="center" verticalAlignment="center" backgroundImage="blue-Watch" id="tE2-8r-Or7">
+                                    <connections>
+                                        <action selector="blueTouchUp" destination="AgC-eL-Hgc" id="OnC-Q2-cV3"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="blueButton" destination="tE2-8r-Or7" id="qlQ-gQ-0FJ"/>
+                        <outlet property="greenButton" destination="i4h-F4-qft" id="xmh-ga-j9h"/>
+                        <outlet property="levelLabel" destination="aGU-s6-Rlg" id="4Jj-CV-WvM"/>
+                        <outlet property="redButton" destination="eli-RT-nyi" id="g2v-c6-ymO"/>
+                        <outlet property="turnLabel" destination="L9s-Y2-Jd5" id="hcP-Dk-KDY"/>
+                        <outlet property="yellowButton" destination="hPp-Qz-kBX" id="5j8-nY-T2f"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="472" y="550"/>
+        </scene>
+        <!--Menu-->
+        <scene sceneID="kzY-PM-HPF">
+            <objects>
+                <controller title="Menu" backgroundImage="background-Watch" id="asX-gH-vWX" customClass="MenuInterfaceController" customModule="Simon_Says_WatchKit_Extension">
+                    <items>
+                        <label width="136" alignment="left" text="Simon Says" textAlignment="center" id="mWB-Yi-v0y">
+                            <fontDescription key="font" type="system" pointSize="24"/>
+                        </label>
+                        <label width="136" alignment="center" text="high score : " textAlignment="center" id="NhV-dY-qzU">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                        </label>
+                        <label width="136" alignment="center" text="last score : " textAlignment="center" id="xgT-k9-uHA"/>
+                        <button width="106" alignment="center" verticalAlignment="bottom" title="Play" id="fxf-Hk-V40">
+                            <color key="backgroundColor" red="0.69411764705882351" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="system" pointSize="25"/>
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="Zp1-Or-LAY"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="highScoreLabel" destination="NhV-dY-qzU" id="1ip-VY-hx5"/>
+                        <outlet property="lastScoreLabel" destination="xgT-k9-uHA" id="GGz-FI-pbh"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="223" y="550"/>
+        </scene>
+    </scenes>
+</document>

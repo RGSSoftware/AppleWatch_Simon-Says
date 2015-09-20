@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0630"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "222B8ED61AF2B4D60091F73B"
+               BuildableName = "Simon Says WatchKit App.app"
+               BlueprintName = "Simon Says WatchKit App"
+               ReferencedContainer = "container:Simon Says.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "222B8ECC1AF2B4D60091F73B"
+               BuildableName = "Simon Says WatchKit Extension.appex"
+               BlueprintName = "Simon Says WatchKit Extension"
+               ReferencedContainer = "container:Simon Says.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "222B8EA31AF2B4120091F73B"
+               BuildableName = "Simon Says.app"
+               BlueprintName = "Simon Says"
+               ReferencedContainer = "container:Simon Says.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "222B8ED61AF2B4D60091F73B"
+            BuildableName = "Simon Says WatchKit App.app"
+            BlueprintName = "Simon Says WatchKit App"
+            ReferencedContainer = "container:Simon Says.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Simon Says">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "222B8ED61AF2B4D60091F73B"
+            BuildableName = "Simon Says WatchKit App.app"
+            BlueprintName = "Simon Says WatchKit App"
+            ReferencedContainer = "container:Simon Says.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "222B8ED61AF2B4D60091F73B"
+            BuildableName = "Simon Says WatchKit App.app"
+            BlueprintName = "Simon Says WatchKit App"
+            ReferencedContainer = "container:Simon Says.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Simon Says">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "222B8ED61AF2B4D60091F73B"
+            BuildableName = "Simon Says WatchKit App.app"
+            BlueprintName = "Simon Says WatchKit App"
+            ReferencedContainer = "container:Simon Says.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "222B8ED61AF2B4D60091F73B"
+            BuildableName = "Simon Says WatchKit App.app"
+            BlueprintName = "Simon Says WatchKit App"
+            ReferencedContainer = "container:Simon Says.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
