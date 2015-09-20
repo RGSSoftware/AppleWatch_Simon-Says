@@ -1,4 +1,4 @@
-# AppleWatch_Simon-Says
+# AppleWatch - Simon Says
 
 Simon Says for Apple Watch is an iconic game played by millions around the world, It's an simple game style that never gets old.
 
