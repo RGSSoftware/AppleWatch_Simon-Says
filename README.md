@@ -7,3 +7,5 @@ A round in Simon Says is made of the a colors lighting up in a random order, aft
 Don't miss the perfect opportunity to start your Apple Watch apps business today.
 
  - Developed with Swift
+ 
+![watchscreenshotsmall](http://i59.tinypic.com/344ct9h.jpg)
